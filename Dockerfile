@@ -6,7 +6,6 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
   echo 'tzdata tzdata/Zones/Etc select UTC' | debconf-set-selections; \
   apt-get update -qqy; \
   apt-get install -qqy --no-install-recommends \
-  php7.4-pgsql \
-  postgresql
+  php7.4-pgsql
 
 ENV DB_CONNECTION=pgsql
