@@ -25,7 +25,7 @@ jobs:
       - name: Prepare Image Metadata
         id: prep
         run: |
-          GHCR_IMAGE=ghcr.io/adfinis/openshift-etcd-backup
+          GHCR_IMAGE=ghcr.io/adfinis/container-image-snipeit-pg
           VERSION=noop
           if [ "${{ github.event_name }}" = "schedule" ]; then
             VERSION=nightly
