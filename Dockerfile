@@ -1,4 +1,4 @@
-FROM snipe/snipeit:v6.0.11-alpine 
+FROM docker.io/snipe/snipeit:v6.0.11-alpine 
 
 RUN apk add --no-cachhe \
   php7-pdo_pgsql \
