@@ -1,4 +1,4 @@
-FROM docker.io/snipe/snipe-it:v6.0.11
+FROM docker.io/snipe/snipe-it:v6.0.12
 
 RUN export DEBIAN_FRONTEND=noninteractive; \
   export DEBCONF_NONINTERACTIVE_SEEN=true; \
